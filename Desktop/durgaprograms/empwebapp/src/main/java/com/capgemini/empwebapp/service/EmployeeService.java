@@ -10,7 +10,6 @@ public interface EmployeeService {
 	  public boolean createEmployeeInfo(EmployeeTest bean);
 	  public List<EmployeeTest> getAllEmployeeDetails();
 	boolean deleteEmployeeInfo(int id);
-	  public boolean addEmployeeInfo(EmployeeTest bean);
 
 	}
 

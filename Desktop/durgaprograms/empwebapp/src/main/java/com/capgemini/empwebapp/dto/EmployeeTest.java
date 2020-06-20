@@ -11,6 +11,7 @@ public class EmployeeTest {
 	private String designation;
 	private long salary;
 	private long doj;
+	
 	private String bloodgroup;
 	private  long deptid;
 	public int getEid() {
@@ -91,6 +92,11 @@ public class EmployeeTest {
 				+ ", gender=" + gender + ", age=" + age + ", dob=" + dob + ", designation=" + designation + ", salary="
 				+ salary + ", doj=" + doj + ", bloodgroup=" + bloodgroup + ", deptid=" + deptid + "]";
 	}
+	public Object getPassword() {
+		// TODO Auto-generated method stub
+		return null;
+
+}
 }
 	
 	

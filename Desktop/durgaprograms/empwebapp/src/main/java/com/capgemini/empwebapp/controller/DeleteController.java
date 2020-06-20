@@ -14,7 +14,7 @@ import com.capgemini.empwebapp.service.EmployeeService;
 import com.capgemini.empwebapp.service.EmployeeServiceImple;
 
 
-@WebServlet("./DeleteController")
+@WebServlet("/DeleteController")
 
 @SuppressWarnings("serial")
 public class DeleteController extends HttpServlet{

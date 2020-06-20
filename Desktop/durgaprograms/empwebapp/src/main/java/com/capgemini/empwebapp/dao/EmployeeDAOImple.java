@@ -172,10 +172,15 @@ public class EmployeeDAOImple implements EmployeeDAO {
 
 
 	@Override
-	public boolean addEmployeeInfo(EmployeeTest bean) {
-		// TODO Auto-generated method stub
-		return false;
+	public EmployeeTest login(int id, String password) {
+		EmployeeTest bean = getEmployeeDetailsByname(id);
+		if(!(bean !=null && bean.getPassword().equals(password))) {
+			bean = null;
+		}
+		return null;
 	}
 
+	
+	
 	
 }

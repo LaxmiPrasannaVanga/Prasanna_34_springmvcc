@@ -15,7 +15,7 @@ public class EmployeeServiceImple  implements EmployeeService{
 	@Override
 	public EmployeeTest getEmployeeDetailByname(String name) {
 		
-		return dao.getEmployeeDetailsByname("prasanna");
+		return dao.getEmployeeDetailsByname("priyaal");
 	}
 	
 	@Override
@@ -39,12 +39,6 @@ public class EmployeeServiceImple  implements EmployeeService{
 	public List<EmployeeTest> getAllEmployeeDetails() {
 		
 		return dao.getAllEmployeeDetails();
-	}
-
-	@Override
-	public boolean addEmployeeInfo(EmployeeTest bean) {
-		// TODO Auto-generated method stub
-		return dao.addEmployeeInfo();
 	}
 
 	

@@ -11,6 +11,6 @@ public interface EmployeeDAO {
   public boolean deleteEmployeeInfo(int id);
   public boolean updateEmployeeInfo(EmployeeTest bean);
   public boolean createEmployeeInfo(EmployeeTest bean);
-  public boolean addEmployeeInfo(EmployeeTest bean);
   public List<EmployeeTest> getAllEmployeeDetails();
+public EmployeeTest login(int id, String empPass);
 }

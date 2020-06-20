@@ -33,7 +33,7 @@ import com.capgemini.empwebapp.service.EmployeeServiceImple;
 	    demo.setName(firstname);
 	    demo.setEmailId(email);
 	    EmployeeService service=new EmployeeServiceImple();
-	    boolean check= service.addEmployeeInfo(demo);
+	    boolean check= service.createEmployeeInfo(demo);
 	    PrintWriter out=resp.getWriter();
 	    out.println("<html>");
 		out.println("<head>");
